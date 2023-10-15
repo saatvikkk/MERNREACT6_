@@ -1,0 +1,63 @@
+.navbar .nav-link{
+    text-decoration: none;
+    color: white;
+    font-size:large ;
+}
+.navbar_light{
+    background-color: #4c3fda;
+}
+.navbar_dark{
+    background-color: #672795;
+}
+.navbar_light .nav-link:hover{
+    color: #df59d6;
+}
+.navbar_dark .nav-link:hover{
+    color: #54a8f6;
+}
+.navbar .NavDropdown{
+    background-color: red;
+}
+.navbar .drop_light{
+    background-color: #db5df1;
+}
+.navbar .drop_light .dropdown-item:hover{
+    background-color: #c45ebd;
+    color: white;
+}
+.navbar .drop_dark{
+    background-color: #660dc5;
+}
+.navbar .drop_dark .dropdown-item:hover{
+    background-color: #521197;
+    color: white;
+}
+.sidebar{
+    height: 100%;
+}
+.sideBarColordark {
+    background-color: #672795;
+    color: white;
+}
+.sideBarColordark .ripple {
+    background-color: #672795;
+    color: white;
+    font-size: medium;
+}
+.sideBarColordark .ripple:hover {
+    background-color: #8232bb;
+    color: #54a8f6;
+}
+.sideBarColorlight {
+    background-color: #4c3fda;
+    color: white;
+}
+.sideBarColorlight .ripple {
+    background-color: #4c3fda;
+    color: white;
+    font-size: medium;
+}
+.sideBarColorlight .ripple:hover {
+    background-color: #483eb7;
+    color: #df59d6;
+}

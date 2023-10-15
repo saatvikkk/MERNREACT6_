@@ -1,0 +1,30 @@
+.flexdark{
+    color: white;
+}
+.flexlight{
+    color: black;
+}
+.mainFlex{
+    height: 90%;
+    width: 100%;
+}
+.topClass{
+    width: 75%;
+}
+.Mailbut{
+    width: 25%;
+}
+textarea{
+    height: 100%;
+}
+@media(max-width: 1000px){
+    textarea{
+        height: 55%;
+    }
+    .topClass{
+        width: 100%;
+    }
+    .Mailbut{
+        width: 50%;
+    }
+}

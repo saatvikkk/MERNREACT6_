@@ -1,0 +1,49 @@
+.d-flex .d-flex .abouTitle{
+    font-size: 40px;
+}
+.d-flex .abouText p,li{
+    font-size: 20px;
+}
+.topFlex{
+    width: 75%;
+}
+.toplight {
+    color: black;
+}
+.topdark{
+    color: white;
+}
+.abMain{
+    height: 90%;
+}
+@media (max-width: 768px) {
+    .d-flex .d-flex .abouTitle{
+      font-size: 36px;
+    }
+    .d-flex .abouText p{
+        font-size: 14px;
+    }
+    .topFlex {
+        width: 100%;
+    }
+}
+.about-slide-enter {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+}
+.about-slide-enter-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.5s, opacity 0.5s;
+}
+.about-slide-two-enter {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+}
+.about-slide-two-enter-active {
+    transform: translateX(1);
+    opacity: 1;
+    transition: transform 0.5s, opacity 0.5s;
+}
